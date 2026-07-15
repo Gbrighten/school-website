@@ -1,0 +1,120 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* School Name */
+header h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+/* Motto */
+header p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+/* Navigation */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    font-size:17px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Main Section */
+section{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2{
+    color:#003366;
+    margin-bottom:20px;
+}
+
+h3{
+    color:#00509e;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+/* Paragraph */
+p{
+    margin-bottom:15px;
+}
+
+/* Lists */
+ul{
+    margin-left:25px;
+    margin-bottom:20px;
+}
+
+li{
+    margin-bottom:8px;
+}
+
+/* Images */
+img{
+    max-width:100%;
+    border-radius:10px;
+    margin-top:15px;
+}
+
+/* Buttons */
+button{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#00509e;
+}
+
+/* Footer */
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
